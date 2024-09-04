@@ -1,0 +1,66 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin-left: 200px !important;
+}
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 12px 6px 12px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+table, th, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.width-10 {
+    padding: 10px 10px;
+}
+
+.width-50 {
+    padding: 10px 50px;
+}
+
+.width-80 {
+    padding: 10px 80px;
+}
+
+.width-150 {
+    padding: 10px 150px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
